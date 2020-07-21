@@ -6,11 +6,23 @@
     <title>昵称生成器</title>
     <link rel="stylesheet" href="./js/hack.css">
   
- 
+    <div style="text-align:center; display:block;height: 400px;
+    line-height: 400px;"><font style="font-size:xxx-large" >Game over !!!</font></div>
 
-    <div id="app"><div data-reactroot="" class="container"><div class="grid -center -middle"><form class="form" _lpchecked="1"><h1>昵称生成器</h1><fieldset class="form-group"><label for="prefix">昵称/前缀：</label><input type="text" id="prefix" class="form-control" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;"></fieldset><fieldset class="form-group"><label for="suffix">后缀：</label><input type="text" id="suffix" class="form-control"></fieldset><fieldset class="form-group"><label for="result">请复制此行：</label><input type="text" id="result" readonly="" class="form-control"></fieldset></form></div></div></div>
-	<span style="text-align:center; display:block"><img src="./1.png" style="width:30px;"></span>
-	<span style="text-align:center; display:block">Power by TNT</span>
+    <div id="app" style="display:none;">
+	<div data-reactroot="" class="container">
+	<div class="grid -center -middle">
+	<form class="form" _lpchecked="1">
+	<h1>昵称生成器</h1>
+	<fieldset class="form-group">
+	<label for="prefix">昵称/前缀：</label>
+	<input type="text" id="prefix" class="form-control" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;"></fieldset><fieldset class="form-group"><label for="suffix">后缀：</label><input type="text" id="suffix" class="form-control"></fieldset><fieldset class="form-group"><label for="result">请复制此行：</label><input type="text" id="result" readonly="" class="form-control"></fieldset>
+	</form>
+	</div>
+	</div>
+	</div>
+	<span style="text-align:center; display:block;display:none;"><img src="./1.png" style="width:30px;"></span>
+	<span style="text-align:center; display:block;display:none;">Power by TNT</span>
 	<script type="text/javascript">
 	if(typeof Math.imul == "undefined" || (Math.imul(0xffffffff,5) == 0)) {
     Math.imul = function (a, b) {
